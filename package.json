@@ -1,0 +1,21 @@
+{
+  "name": "lerna-get-packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Azzola <@azz>",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn test",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "lerna": "^2.5.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "lerna": "^2.5.1"
+  }
+}

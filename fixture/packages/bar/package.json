@@ -1,0 +1,7 @@
+{
+  "name": "@azz/bar",
+  "version": "0.0.0",
+  "dependencies": {
+    "@azz/baz": "*"
+  }
+}

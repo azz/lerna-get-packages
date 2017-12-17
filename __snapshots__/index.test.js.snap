@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lernaGetPackages() matches snapshot 1`] = `
+Array [
+  Object {
+    "location": "<cwd>/fixture/packages/bar",
+    "package": Object {
+      "dependencies": Object {
+        "@azz/baz": "*",
+      },
+      "name": "@azz/bar",
+      "version": "0.0.0",
+    },
+  },
+  Object {
+    "location": "<cwd>/fixture/packages/baz",
+    "package": Object {
+      "name": "@azz/baz",
+      "version": "0.0.0",
+    },
+  },
+  Object {
+    "location": "<cwd>/fixture/packages/foo",
+    "package": Object {
+      "dependencies": Object {
+        "@azz/bar": "*",
+      },
+      "name": "@azz/foo",
+    },
+  },
+]
+`;

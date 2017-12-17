@@ -1,0 +1,6 @@
+{
+  "name": "@azz/foo",
+  "dependencies": {
+    "@azz/bar": "*"
+  }
+}

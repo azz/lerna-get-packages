@@ -1,0 +1,5 @@
+{
+  "workspaces": ["packages/*"],
+  "name": "@azz/root",
+  "private": true
+}
