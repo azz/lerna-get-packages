@@ -25,7 +25,3 @@ Returns an array of objects with the properties:
 
 * `location`: file system path to the package.
 * `package`: contents of the `package.json` file for the package.
-
-## license
-
-MIT © Lucas Azzola

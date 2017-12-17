@@ -1,6 +1,6 @@
 {
   "name": "lerna-get-packages",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "author": "Lucas Azzola <@azz>",
   "license": "MIT",
@@ -9,13 +9,24 @@
   ],
   "scripts": {
     "prepublishOnly": "yarn test",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint .",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "peerDependencies": {
     "lerna": "^2.5.1"
   },
   "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.4.0",
     "jest": "^21.2.1",
-    "lerna": "^2.5.1"
+    "lerna": "^2.5.1",
+    "prettier": "^1.9.2",
+    "semantic-release": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azz/lerna-get-packages.git"
   }
 }

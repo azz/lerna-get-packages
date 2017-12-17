@@ -8,7 +8,7 @@ module.exports = function(rootDir) {
   return packages.map(function(pkg) {
     return {
       location: pkg._location,
-      package: pkg._package,
+      package: pkg._package
     };
   });
 };
